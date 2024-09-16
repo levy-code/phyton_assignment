@@ -1,0 +1,7 @@
+money_start = input ("Enter your savings money start: ")
+saving_years = input ("Enter your saving years: ")
+interest_rate = input ("Enter your interest rate: ")
+money_result = int(money_start) * float(interest_rate) * int(saving_years)
+money_result = int(money_result)
+print(f"Your savings after {saving_years} years: {money_result:}")
+print(f"Will you be able to afford your holday? {money_result >= 1000}")
