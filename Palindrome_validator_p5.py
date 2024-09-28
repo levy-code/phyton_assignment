@@ -1,5 +1,5 @@
 input_text = input("Please enter a word or sentence: ")
-cleaned_text = input_text.replace(" ","").replace(".","").replace("?","").replace("!","").lower()
+cleaned_text = input_text.replace(" ","").replace(",","").replace(".","").replace("?","").replace("!","").lower()
 input_words = list(cleaned_text)
 input_words.reverse()
 words_joined = "".join(input_words)
